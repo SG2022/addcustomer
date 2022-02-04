@@ -25,7 +25,7 @@ public class addCustomerController {
 	@GetMapping("/welcome")
 	public ModelAndView welcome()
 	{
-                int x=2;
+                int x=3;
 		return new ModelAndView("welcome");
 	}
 	//@GetMapping("/customerlist")
